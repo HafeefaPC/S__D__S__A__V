@@ -1,28 +1,17 @@
-void fun(vector<string> &ans , int n ){
 
-   if(n==0)  return;
 
-    ans.push_back("Coding Ninjas");
- 
-
-    fun(ans , n-1);     
-
+void print(vector<int>&ans, int x) {
+  if (x==0) {
+    return;
+  } else {
+    print(ans, x - 1);
+     ans.push_back(x);
+  }
+}
+vector<int>printNos(int x) {
+  vector<int>ans;
+  print(ans, x); 
+  return ans;
 }
 
- 
 
- 
-
-vector<string> printNTimes(int n) {    
-
-   vector<string> ans;
-
- 
-
-    fun(ans , n);
-
- 
-
-    return ans;
-
- }
