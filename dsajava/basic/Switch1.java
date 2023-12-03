@@ -1,4 +1,4 @@
-package dsajava;
+package dsajava.basic;
 
 import java.util.Scanner;
 public class Switch1 {

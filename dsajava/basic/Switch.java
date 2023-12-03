@@ -1,4 +1,4 @@
-package dsajava;
+package dsajava.basic;
 import java.util.Scanner;
 public class Switch{
     public static void main(String[] args){
@@ -20,7 +20,7 @@ public class Switch{
         break;
         default:
         System.out.println("please enter a valid fruit");   
-        
+
     }
     }
 }
