@@ -10,6 +10,8 @@ public class Basic{
             for( int i=0;i<5;i++){
              System.out.print(hai[i] + " ");
             }
-
+            for( int num : hai){
+                System.out.print(num + " ");
+            }
         }
 }
