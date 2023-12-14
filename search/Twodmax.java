@@ -1,6 +1,5 @@
 package search;
 
-import java.util.Arrays;
 
 public class Twodmax {
     public static void main(String[] args) {
