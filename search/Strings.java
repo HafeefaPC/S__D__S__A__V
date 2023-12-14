@@ -20,4 +20,17 @@ public class Strings {
     }
     return false;
   }
+
+  static boolean search2(String n , char u){
+    if(n.length() ==0){
+        return false;
+    }
+
+    for(char ch:n.toCharArray()){
+        if( ch == u){
+            return true;
+        }
+    }
+    return false;
+  }
 }
