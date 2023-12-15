@@ -33,7 +33,7 @@ public class Evennumdigit {
          int even=0;
         for(int num : arr){
 
-            int a = (int) Math.log10(Math.abs(num)) + 1;
+            int a = (int) Math.log10(num) + 1;
             if(a%2==0){
                even++;
             }
