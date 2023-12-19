@@ -12,7 +12,7 @@ static int binary(int[] arr,int target){
     while(s<=e){
         int mid=(s+e)/2;
         if(target<arr[mid]){
-            e=mid;
+            e=mid-1;
         }
         else if(target>arr[mid]){
             s=mid+1;
