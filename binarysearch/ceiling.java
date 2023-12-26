@@ -8,6 +8,9 @@ public class ceiling {
    System.out.println(celing(arr, target));
 }
 static int celing(int[] arr,int target){
+    if(target>=arr[arr.length-1]){
+        return-1;
+    }
     int s=0;
     int e=arr.length-1;
     while(s<=e){
