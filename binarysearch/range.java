@@ -11,16 +11,14 @@ public class range {
 
     public static int[] searchindex(int[] nums, int target) {
         int[] ans = { -1, -1 };
-        int start = search(nums, target, true);
-        int end = search(nums, target, false);
-
-        ans[0] = start;
-        ans[1] = end;
-
+        ans[0] = search(nums, target, true);
+        if (ans[0] != -1){
+        ans[1] = search(nums, target, false);
+        }
         return ans;
     }
 
-    public  static int search(int[] nums, int target, boolean index) {
+    public static int search(int[] nums, int target, boolean index) {
         int ans = -1;
         int start = 0;
         int end = nums.length - 1;
