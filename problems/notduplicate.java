@@ -1,3 +1,7 @@
+//non-duplicate number will be print Input: nums = [4,1,2,1,2]
+// Output: 4
+//XOR operation is using to solve 
+
 package problems;
 
 public class notduplicate {
